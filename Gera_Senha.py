@@ -342,4 +342,4 @@ tela.bind('<KP_Enter>',lambda event:gerar(entrada_p,entrada,btt_copiar))
 tela.bind('<Control-c>', lambda event:copiar())
 tela.bind('<Control-C>', lambda event:copiar())
 tela.bind('<Escape>', lambda event:sair())
-tela.mainloop()
+tela.mainloop() #Faz o looping na tela
